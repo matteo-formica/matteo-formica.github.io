@@ -1,5 +1,5 @@
 header{
-    background-color: #65A2B0;
+    background-color: #247588;
     padding: 10px 0 0 0;
     width: 100%;
     margin: 0;
@@ -17,6 +17,7 @@ body {
     background-color: #D7E8EC;
     background-size: cover;
     position: relative;
+    height: 500px;
 }
 
 main{
@@ -46,9 +47,9 @@ main h1{
     text-align: center;
     font-size: 20px;
     position: relative;
-    right: 20px;
-    top: 12.5px;
     padding: 0 10px 0 10px;
+    top: 10px;
+    right: 10px;
 
 }
 
@@ -60,62 +61,120 @@ main h1{
     color: #247588;
 }
 
+.presentation{
+    background-color: #247588;
+    border: 2px solid #266B7B;
+    position: relative;
+    height: 600px;
+    width: 60%;
+    margin: 40px auto;
+    
+
+}
+
+.projects{
+    background-color: #247588;
+    border: 2px solid #266B7B;
+    position: relative;
+    height: 600px;
+    width: 66%;
+    margin: 40px auto;
+    padding-bottom: 40px;
+}
+
 .presentation img{
-    height: 270px;
-    width: 200px;
+    height: 350px;
+    width: 260px;
     display: inline;
+    position: relative;
+    margin: 20px 0 0 50px;
+    right: 500px;
+    overflow: visible;
+    border-left: 6px solid #247588;
+    border-bottom: 6px solid #247588;
+    border-top: 2px solid #247588;
 }
 
 .projects img{
     height: 300px;
-    width: 200px;
-    display: inline;
+    width: 300px;
     position: relative;
-    float: left;
+    left: 400px;
+}
+
+.projects h1{
+    color: #CEE8EE;
+    border-bottom: 1px solid #CEE8EE;
+    padding: 0 0 30px 0;
+}
+
+.projects h2{
+
+    color: #CEE8EE;
+    text-align: center;
+
 }
 
 .presentation p{
-    display: inline;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CEE8EE;
+    display: inline-block;
     height: 100px;
-    width: 200px;
+    width: 40%;
     position: relative;
-    border: 1px solid #65A2B0;
-    float: right;
+    left: 300px;
+    bottom: 130px;
+
+
 }
 
-.projects p{
-    display: inline;
+.projects figcaption{
+    color: #CEE8EE;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100px;
-    width: 200px;
+    width: 400px;
     position: relative;
-    border: 1px solid #65A2B0;
-    float: right;
+    left: 350px;
+    top: 20px;
 }
 
 
 
-.presentation h2{
-    font-size: 23px;
+.presentation h1{
+    color: #CEE8EE;
+    border-bottom: 1px solid #CEE8EE;
+    position: relative;
+    font-size: 40px;
+    padding-bottom: 20px;
+    bottom: 10px;
 }
 
 footer{
-    background-color: #65A2B0;
+    background-color: #247588;
     position: relative;
-    top: 400px;
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    
 }
 
 footer ul{
+    position: relative;
     list-style-type: none;
     margin: 0 auto;
     width: 100%;
     padding: 0;
 }
 
+footer h3{
+    color: #CEE8EE;
+}
+
 footer li{
+    color: #CEE8EE;
     position: relative;
     list-style: hidden;
     width: 100%;
